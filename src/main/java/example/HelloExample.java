@@ -9,7 +9,7 @@ public class HelloExample{
     public static void main(String[] args) {
     
         HelloExample obj = new HelloExample();
-        obj.runMe("Test Message");
+        obj.runMe("Sample Test Message");
         
     }
     
