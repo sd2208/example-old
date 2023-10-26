@@ -10,6 +10,7 @@ public class HelloExample{
     
         HelloExample obj = new HelloExample();
         obj.runMe("Sample Test Message");
+        logger.info("Done.");
         
     }
     
