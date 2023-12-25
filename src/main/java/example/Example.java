@@ -2,13 +2,13 @@ package example;
 
 import org.apache.log4j.Logger;
 
-public class HelloExample{
-    
-    final static Logger logger = Logger.getLogger(HelloExample.class);
+public class Example {
+
+    final static Logger logger = Logger.getLogger(Example.class);
     
     public static void main(String[] args) {
-    
-        HelloExample obj = new HelloExample();
+
+        Example obj = new Example();
         obj.runMe("Sample Test Message");
         logger.info("Done.");
         
